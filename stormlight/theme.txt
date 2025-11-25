@@ -14,7 +14,7 @@ terminal-border: "0"
 + boot_menu {
     left = 0%
     width = 100%
-    top = 100%
+    top = 25%
     height = 700
     item_height = 74
     item_padding = 0
@@ -23,9 +23,9 @@ terminal-border: "0"
     item_icon_space = 20
     item_spacing = 5
     item_font =  "Dersu Uzala brush Regular 54"
-    item_color = "#7aa2f7"
+    item_color = "#ffc885"
     selected_item_font = "Dersu Uzala brush Regular 54"
-    selected_item_color = "#7dcfff"
+    selected_item_color = "#ffe7a3"
     selected_item_pixmap_style = "select_*.png"
 }
 
@@ -36,7 +36,7 @@ terminal-border: "0"
     width = 300
     height = 20
     font = "Fira Code Regular 20"
-    color = "#7aa2f7"
+    color = "#ffc885"
     align = "center"
     text = "Hesitation is defeat: %ds"
 }
