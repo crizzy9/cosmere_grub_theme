@@ -1,4 +1,4 @@
-title-text: ""
+title-text: "Life before Death, Strength before Weakness, Journey before Destination"
 title-font: "Dersu Uzala brush Regular 60"
 desktop-image: "kaladin.png"
 desktop-image-scale-method: "stretch"
@@ -13,11 +13,11 @@ terminal-border: "0"
 
 + boot_menu {
     left = 0%
-    width = 100%
+    width = 55%
     top = 25%
     height = 700
     item_height = 74
-    item_padding = 0
+    item_padding = 250
     icon_width = 40
     icon_height = 40
     item_icon_space = 20
@@ -38,6 +38,6 @@ terminal-border: "0"
     font = "Fira Code Regular 20"
     color = "#ffc885"
     align = "center"
-    text = "Hesitation is defeat: %ds"
+    text = "Desolation begins in: %ds"
 }
 
