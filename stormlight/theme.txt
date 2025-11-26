@@ -1,5 +1,5 @@
-title-text: "Life before Death, Strength before Weakness, Journey before Destination"
-title-font: "Dersu Uzala brush Regular 60"
+title-text: ""
+title-font: "Caslon Antique Regular 45"
 desktop-image: "kaladin.png"
 desktop-image-scale-method: "stretch"
 terminal-font: "Fira Code Regular 16"
@@ -9,23 +9,29 @@ terminal-width: "100%"
 terminal-height: "100%"
 terminal-border: "0"
 
-
++ image {
+    left = 10%
+    top = 3%
+    file = "sla.png"
+}
 
 + boot_menu {
-    left = 0%
-    width = 55%
+    left = 5%
+    width = 40%
     top = 25%
     height = 700
     item_height = 74
-    item_padding = 250
+    item_padding = 0
+    scrollbar_width = 0
     icon_width = 40
     icon_height = 40
     item_icon_space = 20
     item_spacing = 5
-    item_font =  "Dersu Uzala brush Regular 54"
-    item_color = "#ffc885"
-    selected_item_font = "Dersu Uzala brush Regular 54"
-    selected_item_color = "#ffe7a3"
+    item_font =  "Caslon Antique Regular 36"
+    item_color = "#f4b439"
+    selected_item_font = "Caslon Antique Regular 36"
+    selected_item_color = "#fcffeb"
+    selected_item_pixmap_padding = 55
     selected_item_pixmap_style = "select_*.png"
 }
 
@@ -36,8 +42,8 @@ terminal-border: "0"
     width = 300
     height = 20
     font = "Fira Code Regular 20"
-    color = "#ffc885"
+    color = "#f4b439"
     align = "center"
-    text = "Desolation begins in: %ds"
+    text = "Desolation ends in: %ds"
 }
 
