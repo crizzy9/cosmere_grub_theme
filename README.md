@@ -23,13 +23,13 @@ If you're on NixOS use the following derivation instead and then just import the
 
 stdenv.mkDerivation rec {
   pname = "grub-theme-cosmere";
-  version = "510aee2";
+  version = "db99731";
 
   src = fetchFromGitHub {
     owner = "crizzy9";
     repo = "cosmere_grub_theme";
     rev = "${version}";
-    hash = "sha256-KecmSHzeeK6aYen0EOHU/SyWh7bEtDUjcn/7IX0Ki8I=";
+    hash = "sha256-A9G6mYd/fQSb9jEE7zSdGxaPufLXdgGEHba1nU6QVVM=";
   };
 
   dontBuild = true;
